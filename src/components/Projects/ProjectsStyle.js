@@ -68,11 +68,13 @@ export const ToggleButton = styled.div`
     cursor: pointer;
     ${({ active, theme }) =>
         active && `
-    background: ${theme.primary + 20};
+    background: ${theme.primary};
+    color: ${theme.white};
     `
     }
     &:hover {
-        background: ${({ theme }) => theme.primary + 8};
+        background: ${({ theme }) => theme.primary};
+        color: ${({ theme }) => theme.white};
     }
     @media (max-width: 768px) {
         padding: 6px 8px;

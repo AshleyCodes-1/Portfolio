@@ -1,19 +1,21 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
-import { DiCssdeck } from 'react-icons/di';
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent';
+import { DarkModeToggle } from '../Dark-mode-toggle/DarkModeToggle';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { useTheme } from 'styled-components';
+import logo from './MiloticAsh.png';
 
-const Navbar = () => {
+const Navbar = ({ toggleDarkMode }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
   return (
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a href="/" style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <img src={logo} alt="miloticash" style={{ width: '12%', height: 'auto' }}></img>
+          <a href="/" style={{ display: "flex", alignItems: "center", color: "#1E98E0", marginBottom: '20;', cursor: 'pointer' }}>
+             <Span>Ashley</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -52,6 +54,7 @@ const Navbar = () => {
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
+        <DarkModeToggle onChange={toggleDarkMode} />
       </NavbarContainer>
     </Nav>
   )

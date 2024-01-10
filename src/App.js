@@ -14,6 +14,7 @@ import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 
+
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -26,13 +27,18 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
 function App() {
-  const [darkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
   console.log(openModal)
+  
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
-        <Navbar />
+        <Navbar toggleDarkMode={toggleDarkMode} />
         <Body>
           <HeroSection />
           <Wrapper>

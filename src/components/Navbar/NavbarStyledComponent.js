@@ -32,6 +32,7 @@ export const NavLogo = styled(LinkR)`
     display: flex;
     justify-content: start;
     align-items: center;
+    color: ${({ theme }) => theme.primary};
     text-decoration: none;
     @media (max-width: 640px) {
       padding: 0 0px;
@@ -40,7 +41,7 @@ export const NavLogo = styled(LinkR)`
 export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 `;
 export const NavItems = styled.ul`
     width: 100%;

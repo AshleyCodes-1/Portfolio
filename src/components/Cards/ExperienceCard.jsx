@@ -25,12 +25,12 @@ const Description = styled.div`
 `
 
 const Span = styled.span`
-overflow: hidden;
-display: -webkit-box;
-max-width: 100%;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
-text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
 `
 
 const Card = styled.div`
@@ -65,7 +65,7 @@ const Card = styled.div`
 
     }
 
-    border: 0.1px solid #306EE8;
+    border: 0.1px solid #17B3DA;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `
 

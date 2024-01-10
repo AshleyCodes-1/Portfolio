@@ -108,16 +108,21 @@ const ContactButton = styled.input`
   text-decoration: none;
   text-align: center;
   background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: linear-gradient(45deg, rgba(23,179,218,1) 37%, rgba(0,103,255,1) 81%);
+  background: -moz-linear-gradient(45deg, rgba(23,179,218,1) 37%, rgba(0,103,255,1) 81%);
+  background: -webkit-linear-gradient(45deg, rgba(23,179,218,1) 37%, rgba(0,103,255,1) 81%);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
   border: none;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.white};
   font-size: 18px;
   font-weight: 600;
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.4s ease-in-out;
+    filter: brightness(1);
+  }
 `
 
 
