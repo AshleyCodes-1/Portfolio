@@ -1,3 +1,3 @@
 # Portfolio
 Creating a Personal Portfolio Website using ReactJS. Customised Readme coming after the completion of project...
-![certificate](https://github.com/AshleyCodes-1/Portfolio/assets/81952944/aed92f36-6704-4ab0-a720-86790a2e92e0)
+
