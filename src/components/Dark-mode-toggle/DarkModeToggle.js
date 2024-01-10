@@ -1,16 +1,18 @@
 // DarkModeToggle.js
 import React, { useState } from "react";
+import './DarkModeToggle.css';
 import Toggle from "react-toggle";
 import { useMediaQuery } from "react-responsive";
-import 'react-toggle/style.css'; // Import the styles for the toggle component
-
-import checkedIcon from '../../images/moon.png';
-import uncheckedIcon from '../../images/brightness.png';
+import checkedIcon from '../../images/night.png';
+import uncheckedIcon from '../../images/morning.png';
 
 
 const iconStyle = {
-  width: '20px', // Adjust the width as needed
-  height: '20px', // Adjust the height as needed
+  position: 'absolute',
+  top: '50%',
+  transform: 'translateX(-10%) translateY(-50%)',
+  width: '17px', // Adjust the width as needed
+  height: '17px', // Adjust the height as needed
 };
 
 export const DarkModeToggle = ({ onChange }) => {
@@ -35,8 +37,8 @@ export const DarkModeToggle = ({ onChange }) => {
           }
         }}
         icons={{ 
-            checked: <img src={checkedIcon} alt="Checked" style={iconStyle} />,
-            unchecked: <img src={uncheckedIcon} alt="Unchecked" style={iconStyle} />
+          checked: <img src={checkedIcon} alt="Checked" style={iconStyle} />,
+          unchecked: <img src={uncheckedIcon} alt="Unchecked" style={iconStyle} />
         }}
         aria-label="Dark mode toggle"
       />

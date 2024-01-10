@@ -12,12 +12,16 @@ const Navbar = ({ toggleDarkMode }) => {
   return (
     <Nav>
       <NavbarContainer>
+        
         <NavLogo to='/'>
           <img src={logo} alt="miloticash" style={{ width: '12%', height: 'auto' }}></img>
           <a href="/" style={{ display: "flex", alignItems: "center", color: "#1E98E0", marginBottom: '20;', cursor: 'pointer' }}>
              <Span>Ashley</Span>
           </a>
+          &nbsp;&nbsp;
+          <DarkModeToggle onChange={toggleDarkMode} />
         </NavLogo>
+        
         <MobileIcon>
           <FaBars onClick={() => {
             setIsOpen(!isOpen)
@@ -30,9 +34,11 @@ const Navbar = ({ toggleDarkMode }) => {
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
+        
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
         </ButtonContainer>
+        
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
@@ -54,7 +60,7 @@ const Navbar = ({ toggleDarkMode }) => {
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
-        <DarkModeToggle onChange={toggleDarkMode} />
+        
       </NavbarContainer>
     </Nav>
   )
