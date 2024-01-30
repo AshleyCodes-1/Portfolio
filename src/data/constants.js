@@ -130,7 +130,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/j1rmtuetagmymaryd61w",
+    img: "https://res.cloudinary.com/dnsz7woej/image/upload/v1706634013/upskillz_mfe7jr.jpg",
     role: "Full Stack Developer",
     company: "UpSkillZ",
     date: "Apr 2022 - June 2022",
@@ -162,26 +162,26 @@ export const education = [
     img: "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3f409a6136ee82d4c6dbfdb719e417ba",
     school: "Apeejay School, Saltlake, Kolkata",
     date: "Apr 2019 - Mar 2020",
-    grade: "Grade (AISSCE) - 94.4%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "CBSE(XII), Science with Computer",
+    grade: "Senior Secondary AISSCE - 94.4%",
+    desc: "Subjects - Physics, Chemistry, Mathematics, Computer Science, English, Web Application",
+    degree: "CBSE (XII), Science with Computer",
   },
   {
     id: 2,
     img: "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3f409a6136ee82d4c6dbfdb719e417ba",
     school: "Apeejay School, Saltlake, Kolkata",
     date: "Apr 2017 - Mar 2018",
-    grade: "Grade (AISSE) - 89.4%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "CBSE(X), Science with Computer",
+    grade: "Secondary AISSE - 89.4%",
+    desc: "Subjects - Science, Mathematics, Social Science, English, 2nd language (Hindi), Information Technology",
+    degree: "CBSE (X)",
   },
 ];
 
 export const projects = [
   {
-    id: 9,
+    id: 0,
     title: "Fitness 360",
-    date: "Jun 2023 - Jul 2023",
+    date: "Jan 2023 - Apr 2023",
     description:
       "Welcome to Fitness 360˚! This is a comprehensive fitness website designed and developed using popular Front-End tools. The Database operations are handled by Mongo Atlas. It is a completely responsive website with smooth transitions.",
     image:
@@ -194,40 +194,26 @@ export const projects = [
       "ExpressJS",
       "MongoDB",
     ],
-    category: "web app",
+    category: "web dev",
     github: "https://github.com/AshleyCodes-1/Fitness360",
     webapp: "https://ashleycodes-1.github.io/Fitness360/",
   },
   {
-    id: 0,
+    id: 1,
     title: "Mama Care",
     date: "Apr 2023 - May 2023",
     description:
       "A comprehensive Healthcare website especially for pregnant mothers providing an All-in-One information and guide of all stages of pregnancy. Being locally hosted using Xampp. The Database operations are handled by phpMyAdmin that has already included MariaDB",
     image: "https://res.cloudinary.com/dnsz7woej/image/upload/v1705933191/MamaCare_xwwpxz.jpg",
     tags: ["HTML", "CSS", "BOOTSTRAP", "PHP", "Laravel (Framework)", "Xampp", "MySQL"],
-    category: "web app",
+    category: "web dev",
     github: "https://github.com/AshleyCodes-1/MamaCare",
     webapp: "https://ashleycodes-1.github.io/MamaCare/",
-    member: [
-      {
-        name: "Ayush Das",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
   },
   {
-    id: 1,
+    id: 2,
     title: "AI Snake Pathfinder",
-    date: "Oct 2022 - Present",
+    date: "Apr 2022",
     description:
       "The traditional snake and apple game is now implemented using the power of AI. Using the Breadth-First Search (BFS) algorithm to enable the snake to find the shortest path to the apple.",
     image: "https://res.cloudinary.com/dnsz7woej/image/upload/v1705933210/Snake-Pathfinding_suroey.gif",
@@ -237,36 +223,36 @@ export const projects = [
       "Random (module)",
       "BFS Algorithm"
     ],
-    category: "web app",
+    category: "ai",
     github: "https://github.com/AshleyCodes-1/AI-Snake-Pathfinder",
     
   },
   {
-    id: 2,
+    id: 3,
     title: "E-Commerce Website",
-    date: "Jan 2023 - Mar 2023",
+    date: "Nov 2023 - Present",
     description:
       "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
     image: "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
+    category: "web dev",
     github: "https://github.com/AshleyCodes-1/E-Commerce-Website",
     webapp: "https://brain-tumor.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Attendance using Face Recognition",
-    date: "Dec 2021 - Apr 2022",
+    date: "Oct 2022",
     description:
       "This project utilises OpenCV to identify and verify faces of individuals based on the training data from pre updated images.",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+      "https://res.cloudinary.com/dnsz7woej/image/upload/v1706638482/Face_Recognition_Attendance_rmrbnp.jpg",
     tags: ["Python 3", "OpenCV", "Tensor Flow"],
     category: "machine learning",
     github: "https://github.com/AshleyCodes-1/Attendance-using-Face-Recognition",
   },
   {
-    id: 10,
+    id: 5,
     title: "Portfolio Website",
     date: "Jun 2023 - Jul 2023",
     description:
@@ -274,9 +260,35 @@ export const projects = [
     image:
       "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
     tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    category: "web dev",
+    github: "https://github.com/AshleyCodes-1/Portfolio",
+    webapp: "https://github.com/AshleyCodes-1/Portfolio",
+  },
+  {
+    id: 6,
+    title: "ChatBot with NodejS",
+    date: "Jan 2024",
+    description:
+      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+    image:
+      "https://res.cloudinary.com/dnsz7woej/image/upload/v1706639879/Chatbot_dxswks.png",
+    tags: ["React Native", "JavaScript", "Axios"],
+    category: "web dev",
+    github: "https://github.com/AshleyCodes-1/Chatbot-with-NodeJS",
+    webapp: "https://github.com/AshleyCodes-1/Chatbot-with-NodeJS",
+  },
+  {
+    id: 7,
+    title: "Chatify",
+    date: "Jan 2024",
+    description:
+      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+    tags: ["React Native", "JavaScript", "Axios"],
+    category: "web dev",
+    github: "https://github.com/AshleyCodes-1/Chatify",
+    webapp: "https://github.com/AshleyCodes-1/Chatify",
   },
 ];
 
