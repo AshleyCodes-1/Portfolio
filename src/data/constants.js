@@ -179,11 +179,11 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+    id: 1,
     title: "Fitness 360",
     date: "Jan 2023 - Apr 2023",
     description:
-      "Welcome to Fitness 360˚! This is a comprehensive fitness website designed and developed using popular Front-End tools. The Database operations are handled by Mongo Atlas. It is a completely responsive website with smooth transitions.",
+      "Welcome to Fitness 360˚! A complete fitness & wellness website designed and developed using popular Front-End tools. The Database operations are handled by Mongo Atlas. It is a completely responsive website with smooth transitions.",
     image:
       "https://res.cloudinary.com/dnsz7woej/image/upload/v1704959169/x23xzl71msoyb7tjqxbh.jpg",
     tags: [
@@ -199,11 +199,11 @@ export const projects = [
     webapp: "https://ashleycodes-1.github.io/Fitness360/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Mama Care",
     date: "Apr 2023 - May 2023",
     description:
-      "A comprehensive Healthcare website especially for pregnant mothers providing an All-in-One information and guide of all stages of pregnancy. Being locally hosted using Xampp. The Database operations are handled by phpMyAdmin that has already included MariaDB",
+      "A Healthcare website especially for pregnant mothers providing a complete information and guide of all trimesters  . Being locally hosted using Xampp. The Database operations are handled by phpMyAdmin that has already included MariaDB",
     image: "https://res.cloudinary.com/dnsz7woej/image/upload/v1705933191/MamaCare_xwwpxz.jpg",
     tags: ["HTML", "CSS", "BOOTSTRAP", "PHP", "Laravel (Framework)", "Xampp", "MySQL"],
     category: "web dev",
@@ -211,7 +211,7 @@ export const projects = [
     webapp: "https://ashleycodes-1.github.io/MamaCare/",
   },
   {
-    id: 2,
+    id: 3,
     title: "AI Snake Pathfinder",
     date: "Apr 2022",
     description:
@@ -228,19 +228,18 @@ export const projects = [
     
   },
   {
-    id: 3,
+    id: 4,
     title: "E-Commerce Website",
     date: "Nov 2023 - Present",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+    description: "This is an upcoming Full Stack project on 'E-Commerce Website' using the complete MERN stack.",
     image: "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    tags: ["NodeJS", "ExpressJS", "ReactJS", "Redux", "MongoDB", "Postman"],
     category: "web dev",
     github: "https://github.com/AshleyCodes-1/E-Commerce-Website",
-    webapp: "https://brain-tumor.netlify.app/",
+    webapp: "",
   },
   {
-    id: 4,
+    id: 5,
     title: "Attendance using Face Recognition",
     date: "Oct 2022",
     description:
@@ -252,50 +251,39 @@ export const projects = [
     github: "https://github.com/AshleyCodes-1/Attendance-using-Face-Recognition",
   },
   {
-    id: 5,
+    id: 6,
     title: "Portfolio Website",
     date: "Jun 2023 - Jul 2023",
     description:
       "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+    image: "https://res.cloudinary.com/dnsz7woej/image/upload/v1706686913/Portfolio_vmbmqr.png",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "web dev",
     github: "https://github.com/AshleyCodes-1/Portfolio",
     webapp: "https://github.com/AshleyCodes-1/Portfolio",
   },
   {
-    id: 6,
-    title: "ChatBot with NodejS",
+    id: 7,
+    title: "ChatBot using NodejS & GPT 3.5",
     date: "Jan 2024",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://res.cloudinary.com/dnsz7woej/image/upload/v1706639879/Chatbot_dxswks.png",
-    tags: ["React Native", "JavaScript", "Axios"],
+    description: "This project is a chatbot built using Node.js and OpenAI's GPT-3.5 Turbo API. This chatbot works in the CLI of the computer and can easily be incorporated to make a standalone chatbot UI for website and apps.",
+    image: "https://res.cloudinary.com/dnsz7woej/image/upload/v1706639879/Chatbot_dxswks.png",
+    tags: ["NodeJS", "OpenAI", "ChatGPT-3.5 Turbo API"],
     category: "web dev",
     github: "https://github.com/AshleyCodes-1/Chatbot-with-NodeJS",
     webapp: "https://github.com/AshleyCodes-1/Chatbot-with-NodeJS",
   },
   {
-    id: 7,
+    id: 8,
     title: "Chatify",
     date: "Jan 2024",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+    description: "A chat application using the usecases of NodeJS, ReactJS and REST API via ChatEngine.io",
     image:
       "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
+    tags: ["NodeJS", "ReactJS", "REST API"],
     category: "web dev",
     github: "https://github.com/AshleyCodes-1/Chatify",
     webapp: "https://github.com/AshleyCodes-1/Chatify",
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
