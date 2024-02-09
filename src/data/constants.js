@@ -232,7 +232,7 @@ export const projects = [
     title: "E-Commerce Website",
     date: "Nov 2023 - Present",
     description: "This is an upcoming Full Stack project on 'E-Commerce Website' using the complete MERN stack.",
-    image: "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+    image: "https://res.cloudinary.com/dnsz7woej/image/upload/v1707486992/Coming_soon_lgpp7b.png",
     tags: ["NodeJS", "ExpressJS", "ReactJS", "Redux", "MongoDB", "Postman"],
     category: "web dev",
     github: "https://github.com/AshleyCodes-1/E-Commerce-Website",
@@ -278,8 +278,7 @@ export const projects = [
     title: "Chatify",
     date: "Jan 2024",
     description: "A chat application using the usecases of NodeJS, ReactJS and REST API via ChatEngine.io",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+    image: "https://res.cloudinary.com/dnsz7woej/image/upload/v1707486654/Chatify_ncdxki.jpg",
     tags: ["NodeJS", "ReactJS", "REST API"],
     category: "web dev",
     github: "https://github.com/AshleyCodes-1/Chatify",
